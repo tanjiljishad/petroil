@@ -1,0 +1,185 @@
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .top-nav {
+        border-bottom: 2px solid #FFB800;
+    }
+    header .top-nav .d-flex  {
+        display: block !important;
+    }
+
+    header .icons {
+        padding-bottom: 10px;
+    }
+    .icons i {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .top-nav p:first-child {
+        border: 0;
+    }
+    #banner-part .bg-img {
+        padding: 60px 0;
+    }
+    #banner-part .bg-img h2 {
+        font-size: 30px;
+        font-weight: 600;
+        width: auto;
+    }
+    #banner-part .bg-img button {
+        padding: 10px 15px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .carousel button i {
+        font-size: 16px;
+    }
+    #supply h2 {
+        font-size: 28px;
+        line-height: 37px;
+        padding: 50px 0px 20px 0;
+    }
+    #supply p {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 50px 30px;
+        color: #6C6C6C;
+    }
+    #images .imagebox {
+        flex-wrap: wrap;
+    }
+    #images .img {
+        width: 48%;
+    }
+    #service .text {
+        padding: 10px;
+        margin: 0;
+    }
+    #service .text h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+    #service .text p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        width: auto;
+        color: #6C6C6C;
+    }
+    #service .overlay {
+        padding: 55px 53px 55px 70px;
+    }
+    #company {
+        padding: 40px 0;
+    }
+    #company .item {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #company .item .detailsbox {
+        width: 100%;
+    }
+    #company .item .detailsbox h2 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 34px;
+        padding: 30px 20px;
+    }
+    #company .item .bgimg {
+        width: 100%;
+        padding: 60px;
+    }
+    #company .item .bgimg button {
+        padding: 10px 15px;
+    }
+    #project .overlay p {
+        font-weight: 600;
+    }
+    #contact p {
+        font-size: 26px;
+    }
+    #footer .icons {
+        margin: 30px 0;
+    }
+    /* small screen ends  */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {  
+        #brand {
+            text-align: center;
+         }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    header .top-nav .d-flex {
+        display: block !important;
+    }
+    .top-nav p:first-child {
+        border: 0;
+    }
+    .icons i {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .bg-img {
+        padding: 100px 0;
+    }
+    #banner-part .box h2 {
+        font-size: 40px;
+        font-weight: 600;
+        width: 400px;
+        margin: 0 auto;
+    }
+    #banner-part .box {
+        text-align: center;
+    }
+    #supply h2 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        padding: 0;
+        margin-top: 80px;
+    }
+    #supply p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0;
+        width: 500px;
+        margin: 30px 0;
+    }
+    #images .imagebox {
+        width: 99%;
+    }
+    #images .img {
+        width: 46%;
+    }
+    #service .title {
+        justify-content: center;
+    }
+    #service .text {
+        margin-right: 30px;
+    }
+    #service .text h2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-top: 134px;
+    }
+    #service .text p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {  }

@@ -1,0 +1,425 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ====================================
+Header part starts
+==================================== */
+header {
+    background-color: #282828;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: #F40404;
+}
+.top-nav {
+    border-bottom: 5px solid #FFB800;
+}
+.top-nav p {
+    margin-right: 30px;
+}
+.top-nav p:first-child {
+    padding-right: 20px;
+    border-right: 1px solid #5C6A92;
+}
+.icons {
+    margin-right: 10px;
+}
+.icons i {
+    display: inline-block;
+    margin-left: 20px;
+}
+.icons i:last-child {
+    margin-right: 50px;
+}
+.h-nav {
+    padding: 50px 0;
+}
+.nav-item a {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    border: 1px solid #ffffff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-item button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #F40404;
+    border: 1px solid #fff;
+    padding: 13px 20px;
+    margin-left: 20px;
+}
+/* ====================================
+Header part ends
+==================================== */
+
+/* ====================================
+Banner part starts
+==================================== */
+.bg-img {
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+    padding: 260px 0;
+}
+.bg-img h2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    width: 842px;
+}
+#banner-part .bg-img button {
+    background-color: #F40404;
+    border: none;
+    padding: 13px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.carousel button i {
+    color: #fff;
+    font-size: 60px;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+/* ====================================
+Banner part ends
+==================================== */
+
+/* ====================================
+Supply part starts
+==================================== */
+#supply h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    padding: 80px 50px 100px 0;
+}
+
+#supply p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 160px 100px;
+}
+/* ====================================
+Supply part ends
+==================================== */
+/* ====================================
+Image part starts
+==================================== */
+#images .imagebox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#images .img {
+    width: 24%;
+}
+#images .img img {
+    width: 100%;
+}
+/* ====================================
+Image part ends
+==================================== */
+
+/* ====================================
+Service part starts
+==================================== */
+#service .title {
+    display: flex;
+    justify-content: flex-end;
+}
+#service .text {
+    margin-right: 130px;
+}
+#service .text h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    margin-top: 134px;
+}
+
+#service .text p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 405px;
+}
+
+#service .bgimg1 {
+    background: url(../images/serviceimg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service .bgimg2 {
+    background: url(../images/serviceimg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service .bgimg3 {
+    background: url(../images/serviceimg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service .overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 145px 153px 145px 116px;
+}
+
+#service .overlay h2 {
+    color: #fff;
+    font-size: 34px;
+}
+
+#service .overlay button {
+    background-color: #F40404;
+    color: #fff;
+    font-size: 16px;
+    padding: 13px 20px; 
+    border: 0;   
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#service .overlay button:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* ====================================
+Service part ends
+==================================== */
+/* ====================================
+Company part Starts
+==================================== */
+#company{
+    padding: 140px 0;
+}
+
+#company .item {
+    width: 100%;
+    display: flex;
+}
+
+#company .item .detailsbox {
+    width: 40%;
+    background-color: #F40404;
+}
+#company .item .detailsbox h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    padding: 100px 75px;
+}
+#company .item .bgimg {
+    width: 60%;
+    background: url(../images/companyimg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#company .item .bgimg button {
+    background-color: #fff;
+    color: #F40404;
+    border: none;
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+#company .item .bgimg button:hover {
+    border: 2px solid #F40404;
+}
+/* ====================================
+Company part ends
+==================================== */
+
+/* ====================================
+Project part starts
+==================================== */
+#project {
+    padding: 100px 0;
+}
+#project .item1 {
+    background: url(../images/projectimg1.png);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+#project .item2 {
+    background: url(../images/projectimg2.png);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+#project .item3 {
+    background: url(../images/projectimg3.png);
+}
+#project  .overlay {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 130px 54px;    
+}
+#project  .overlay p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#project .overlay button {
+    background-color: #C4C4C4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#project .overlay button:hover {
+    color: #F40404;
+}
+/* ====================================
+Project part ends
+==================================== */
+
+/* ====================================
+Location part starts
+==================================== */
+
+#location iframe {
+    width: 100%;
+}
+/* ====================================
+Location part ends
+==================================== */
+
+/* ====================================
+Contact part starts
+==================================== */
+#contact {
+    background-color: #F40404;
+    padding: 45px 0;
+    margin-top: -5px;
+    border-bottom: 5px solid #FFB800;
+}
+
+#contact p {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#contact button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F40404;
+    border: 1px solid #fff;
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#contact button:hover {
+    text-transform: uppercase;
+}
+/* ====================================
+Contact part ends
+==================================== */
+
+/* ====================================
+Footer part starts
+==================================== */
+#footer {
+    background-color: #1F1F1F;
+    padding-top: 150px;
+}
+
+#footer .item1 p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#footer .item1 i {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+#footer .icons {
+    padding: 0;
+    margin-top: 30px;
+}
+#footer .icons i {
+    color: #fff;
+    background-color: #F40404;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: -5px;
+    margin-right: 30px;
+}
+.footer-menu {
+    margin-left: 30px;
+}
+#footer .footer-menu h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+#footer .footer-menu a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#footer .footer-menu .images {
+    display: flex;
+}
+#footer .footer-menu .images img {
+    width: 50%;
+    margin-right: 10px;
+}
+/* ====================================
+Footer part ends
+==================================== */
+/* ====================================
+Copyright part starts
+==================================== */
+#footer .copyright {
+    width: 100%;
+    background-color: #282828;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+#footer .copyright p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* ====================================
+Copyright part ends
+==================================== */
